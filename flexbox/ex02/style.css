@@ -1,0 +1,14 @@
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    /* height: 200px; */
+    flex-direction: column;
+}
+
+div.item{
+    color: navy;
+    background-color: aqua;
+    border: 1px solid red;
+    /* flex: auto; */
+    text-align: center;
+}
