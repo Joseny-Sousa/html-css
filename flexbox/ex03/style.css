@@ -1,0 +1,15 @@
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    /* flex-direction:column; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+    /* height: 200px; */
+}
+
+div.item{
+    color: navy;
+    background-color: aqua;
+    border: 1px solid red;
+    flex: auto;
+}
