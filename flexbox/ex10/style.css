@@ -1,0 +1,33 @@
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 200px; */
+}
+
+div.item{
+    color: navy;
+    background-color: aqua;
+    border: 1px solid red;
+    flex-basis: 150px;
+    text-align: center;
+    /* flex-shrink: 0; */
+    /* flex-grow: 1; */
+    /* flex: auto; */
+}
+
+div#item1{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+div#item2{
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+div#item3{
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+

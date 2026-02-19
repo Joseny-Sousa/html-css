@@ -1,0 +1,14 @@
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    /* height: 200px; */
+    flex-flow: row wrap;
+}
+
+div.item{
+    color: navy;
+    background-color: aqua;
+    border: 1px solid red;
+    /* flex: auto; */
+    flex-basis: 150px;
+}

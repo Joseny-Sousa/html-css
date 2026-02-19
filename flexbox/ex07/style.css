@@ -1,0 +1,42 @@
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    /* height: 200px; */
+}
+
+div.item{
+    color: navy;
+    background-color: aqua;
+    border: 1px solid red;
+    /* flex: auto; */
+    padding: 20px
+}
+
+div#i1{
+    order: 1;
+}
+
+div#i2{
+    order: 2;
+}
+
+div#i3{
+    order: -1;
+}
+
+div#i4{
+    order: 0;
+}
+
+div#i5{
+    order: 0;
+}
+
+div#i6{
+    order: 0;
+}
+
+div#i7{
+    order: 0;
+}

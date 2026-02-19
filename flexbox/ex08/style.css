@@ -1,0 +1,39 @@
+div.conteiner{
+    background-color: lightsalmon;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 400px;
+    align-items: flex-start;
+    /* align-content: space-between; */
+}
+
+div.item{
+    color: navy;
+    background-color: aqua;
+    border: 1px solid red;
+    /* flex: auto; */
+    padding: 20px;
+    flex-basis: 200px;
+}
+
+div#i1{
+    align-self: auto;
+}
+div#i2{
+    align-self: auto;
+}
+div#i3{
+    align-self: flex-end;
+}
+div#i4{
+    align-self: flex-end;
+}
+div#i5{
+    align-self: center;
+}
+div#i6{
+    align-self: start;
+}
+div#i7{
+    align-self: stretch;
+}
