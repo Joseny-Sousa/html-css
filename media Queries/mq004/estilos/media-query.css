@@ -1,0 +1,65 @@
+/* Todas as medias */
+
+/* Typical Device Breakpoints
+----------------------------------
+Celulares:
+
+    Até 480px;celulares pequenos
+    Até 576px;celulares padrão
+
+
+Tablets:
+
+    até ≥ 576px; tablets pequenos
+    até ≥ 768px; tablets padrão
+
+
+laptops:
+
+    até ≥ 992px
+
+Desktops:
+
+    ≥ 1200px
+
+
+TV:
+
+    ≥ 1400px
+----------------------------------
+*/
+
+@media (min-width: 480px) {} /*celular*/
+
+@media (min-width: 768px) {
+    body{
+        background-image: url(../img/back-tablet.jpg);
+    }
+    img#celular{display:none;}
+    img#tablet{display:block;}
+    img#print{display:none;}
+    img#pc{display:none;}
+    img#tv{display:none;}
+} /*Tablet*/
+
+@media (min-width: 1024px) {
+    body{
+        background-image: url(../img/back-pc.jpg);
+    }
+    img#celular{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#pc{display:block;}
+    img#tv{display:none;}
+} /*laptops(padrão), Desktop pequeno*/
+
+@media (min-width: 1280px) {
+    body{
+        background-image: url(../img/icon-tv.png);
+    }
+    img#celular{display:none;}
+    img#tablet{display:none;}
+    img#print{display:none;}
+    img#pc{display:none;}
+    img#tv{display:block;}
+} /*Desktop grande, TV*/
