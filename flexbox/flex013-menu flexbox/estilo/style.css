@@ -12,13 +12,38 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header > h1{
     border: 1px solid black;
+    flex: 0 0 200px;
 }
 
 header > nav{
     border: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    flex: row wrap;
+}
+
+header a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+}
+
+header a:hover{
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
 }
 
 main{
