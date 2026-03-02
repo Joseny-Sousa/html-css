@@ -1,0 +1,21 @@
+@media (max-width: 780px){
+    body{
+        /* background-color: aqua; */
+    }
+
+    .navbar{
+        flex-flow: column nowrap;
+    }
+
+    .logo{
+        flex-basis:50px;
+    }
+
+    .nav-links{
+        flex-flow: column ;
+    }
+    .nav-links a{
+        width: 90vw;
+
+    }
+}

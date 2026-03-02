@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.conteudo{
+    text-align: center;
+}
+
+.menu-icon{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.menu-icon{
+    border: 1px solid red;
+    width: 35px;
+    height: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.linha{
+    height: 4px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.menu{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    text-align: center;
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+}
+
+menu a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: forestgreen;
+    transform: 0.3s;
+    
+}
+
+menu a:hover{
+    color: white;
+}
+
+.overlay{
+    
+}
